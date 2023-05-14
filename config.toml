@@ -1,0 +1,34 @@
+theme = "github_dark_dimmed"
+
+[editor]
+auto-save = true
+completion-replace = true
+cursorcolumn = false
+cursorline = true
+line-number = "relative"
+mouse = false
+true-color = true
+color-modes = true
+rulers = [79]
+bufferline = "always"
+
+[editor.whitespace.render]
+space = "none"
+nbsp = "all"
+tab = "none"
+newline = "none"
+
+[editor.indent-guides]
+render = true
+character = "┊" # Some characters that work well: "▏", "┆", "┊", "⸽"
+skip-levels = 0
+
+[keys.normal]
+C-s = ":w"
+C-v = "vsplit"
+C-h = "jump_view_left"
+C-j = "jump_view_down"
+C-k = "jump_view_up"
+C-l = "jump_view_right"
+"C-," = "goto_previous_buffer"
+"C-." = "goto_next_buffer"
