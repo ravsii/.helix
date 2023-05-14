@@ -1,3 +1,9 @@
 [[language]]
-name="toml"
-auto-format=true
+name = "toml"
+auto-format = true
+
+[[language]]
+name = "markdown"
+auto-format = true
+# https://github.com/executablebooks/mdformat
+formatter = { command = "mdformat", args = ["-"] }

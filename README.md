@@ -1,2 +1,8 @@
-# .helix
-my helix configuration files
+# Helix config files
+
+[Helix](https://github.com/helix-editor/helix) is a vim-like editor,
+but a lot more beginner friendly. I've tried to switch to neovim multiple
+times (more than I'd like to admit), but I never actually did it.
+
+I've randomly found Helix and now using it full time, I'd advice you to give
+it a try, if you think (neo)vim is cool, but the (neo)vim itself is not
