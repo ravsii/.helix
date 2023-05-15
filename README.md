@@ -11,3 +11,5 @@ but the (neo)vim itself is not
 ## Preview
 
 ![](./img/showcase.png)
+
+_P.S. There's actually a bug in this code, can you find it?_

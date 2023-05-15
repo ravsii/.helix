@@ -10,7 +10,7 @@ mouse = false
 true-color = true
 color-modes = true
 rulers = [79]
-bufferline = "always"
+bufferline = "multiple"
 
 [editor.whitespace.render]
 space = "none"
