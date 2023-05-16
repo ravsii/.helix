@@ -18,6 +18,9 @@ nbsp = "all"
 tab = "none"
 newline = "none"
 
+[editor.cursor-shape]
+insert = "bar"
+
 [editor.indent-guides]
 render = true
 character = "┊" # Some characters that work well: "▏", "┆", "┊"
@@ -36,4 +39,25 @@ C-k = "jump_view_up"
 C-l = "jump_view_right"
 "C-," = "goto_previous_buffer"
 "C-." = "goto_next_buffer"
-"C-backspace" = { s = [":w", ":config-reload"], o = ":config-open" }
+
+[keys.normal.g]
+q = ":bc"
+Q = ":bc!"
+
+# Remove vscode "training wheels"
+# Comment this to enable arrow navigation in insert mode
+[keys.insert]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+pageup = "no_op"
+pagedown = "no_op"
+home = "no_op"
+end = "no_op"
+
+# Config Mode
+[keys.normal."C-backspace"]
+r = ":config-reload"
+o = ":config-open" 
+l = ":o ~/.config/helix/languages.toml"
