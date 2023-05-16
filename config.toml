@@ -14,7 +14,7 @@ bufferline = "multiple"
 
 [editor.statusline]
 left = ["mode", "spinner", "version-control", "spacer", "separator", "file-name", "file-modification-indicator"]
-right = ["workspace-diagnostics", "diagnostics", "separator", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+right = ["workspace-diagnostics", "separator", "spacer", "diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
 separator = "│"
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
@@ -58,6 +58,7 @@ Q = ":bc!"
 # Remove vscode "training wheels"
 # Comment this to enable arrow navigation in insert mode
 [keys.insert]
+j = { k = "normal_mode" }
 up = "no_op"
 down = "no_op"
 left = "no_op"
@@ -66,6 +67,7 @@ pageup = "no_op"
 pagedown = "no_op"
 home = "no_op"
 end = "no_op"
+"C-space" = "completion"
 
 # Config Mode
 [keys.normal."C-backspace"]
