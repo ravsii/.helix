@@ -13,8 +13,26 @@ rulers = [79]
 bufferline = "multiple"
 
 [editor.statusline]
-left = ["mode", "spinner", "version-control", "spacer", "separator", "file-name", "file-modification-indicator"]
-right = ["workspace-diagnostics", "separator", "spacer", "diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+left = [
+  "mode",
+  "spinner",
+  "version-control",
+  "spacer",
+  "separator",
+  "file-name",
+  "file-modification-indicator"
+]
+right = [
+  "workspace-diagnostics",
+  "separator",
+  "spacer",
+  "diagnostics",
+  "selections",
+  "position",
+  "file-encoding",
+  "file-line-ending",
+  "file-type"
+]
 separator = "│"
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
@@ -39,7 +57,7 @@ skip-levels = 0
 
 [editor.soft-wrap]
 enable = true
-max-wrap = 25          # increase value to reduce forced mid-word wrapping
+max-wrap = 25 # increase value to reduce forced mid-word wrapping
 max-indent-retain = 40
 
 [keys.normal]
@@ -50,6 +68,10 @@ C-k = "jump_view_up"
 C-l = "jump_view_right"
 "C-," = "goto_previous_buffer"
 "C-." = "goto_next_buffer"
+"K" = "insert_newline"
+# Move line up/down using A-k, A-j
+"A-k" = ["delete_selection", "move_line_up", "paste_before"]
+"A-j" = ["delete_selection", "move_line_down", "paste_before"]
 
 [keys.normal.g]
 q = ":bc"
@@ -72,5 +94,5 @@ end = "no_op"
 # Config Mode
 [keys.normal."C-backspace"]
 r = ":config-reload"
-o = ":config-open" 
+o = ":config-open"
 l = ":o ~/.config/helix/languages.toml"
