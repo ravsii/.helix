@@ -70,8 +70,18 @@ C-l = "jump_view_right"
 "C-." = "goto_next_buffer"
 "K" = "insert_newline"
 # Move line up/down using A-k, A-j
-"A-k" = ["delete_selection", "move_line_up", "paste_before"]
-"A-j" = ["delete_selection", "move_line_down", "paste_before"]
+"A-k" = [
+  "shrink_to_line_bounds",
+  "delete_selection",
+  "move_line_up",
+  "paste_before"
+]
+"A-j" = [
+  "shrink_to_line_bounds",
+  "delete_selection",
+  "move_line_down",
+  "paste_before"
+]
 
 [keys.normal.g]
 q = ":bc"
