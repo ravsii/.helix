@@ -23,6 +23,18 @@ name = "markdown"
 auto-format = true
 # https://github.com/executablebooks/mdformat
 formatter = { command = "mdformat", args = ["-"] }
+
+[[language]]
+name = "svelte"
+auto-format = true
+
+[[language]]
+name = "typescript"
+auto-format = true
+
+[[language]]
+name = "go"
+config = { "formatting.gofumpt" = true }
 # ---
 # [[language]]
 # name = "go"
