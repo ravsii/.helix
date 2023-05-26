@@ -9,7 +9,7 @@ line-number = "relative"
 mouse = false
 true-color = true
 color-modes = true
-rulers = [79, 120]
+rulers = [79]
 bufferline = "multiple"
 
 [editor.statusline]
@@ -61,6 +61,7 @@ max-wrap = 25 # increase value to reduce forced mid-word wrapping
 max-indent-retain = 40
 
 [keys.normal]
+esc = ["collapse_selection", "keep_primary_selection"]
 C-v = "vsplit"
 C-h = "jump_view_left"
 C-j = "jump_view_down"
