@@ -62,6 +62,7 @@ max-wrap = 25 # increase value to reduce forced mid-word wrapping
 max-indent-retain = 40
 
 [keys.normal]
+# esc is remapped to capslock locally
 esc = ["collapse_selection", "keep_primary_selection"]
 C-v = "vsplit"
 C-h = "jump_view_left"
@@ -101,6 +102,7 @@ pageup = "no_op"
 pagedown = "no_op"
 home = "no_op"
 end = "no_op"
+# VSCode-like auto-completeion (pretty much all IDEs do it on C-space)
 "C-space" = "completion"
 
 # Config Mode
