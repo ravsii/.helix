@@ -1,4 +1,4 @@
-theme = "github_dark_dimmed"
+theme = "base16_transparent"
 
 [editor]
 auto-save = true
@@ -15,6 +15,7 @@ bufferline = "multiple"
 [editor.statusline]
 left = [
   "mode",
+  "spacer",
   "spinner",
   "version-control",
   "spacer",

@@ -35,6 +35,10 @@ auto-format = true
 [[language]]
 name = "go"
 config = { "formatting.gofumpt" = true }
+
+[[language]]
+name = "rust"
+auto-format = true
 # ---
 # [[language]]
 # name = "go"
