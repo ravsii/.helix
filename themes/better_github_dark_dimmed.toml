@@ -1,0 +1,2 @@
+inherits = "github_dark_dimmed"
+"ui.virtual.ruler" = { bg = "scale.gray.8" }
