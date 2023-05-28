@@ -14,31 +14,17 @@
 # --------
 [[language]]
 name = "toml"
-auto-format = true
 # https://github.com/bd82/toml-tools/tree/master/packages/prettier-plugin-toml
 formatter = { command = "prettier", args = ["--parser", "toml"] }
 
 [[language]]
 name = "markdown"
-auto-format = true
 # https://github.com/executablebooks/mdformat
 formatter = { command = "mdformat", args = ["-"] }
 
 [[language]]
-name = "svelte"
-auto-format = true
-
-[[language]]
-name = "typescript"
-auto-format = true
-
-[[language]]
 name = "go"
 config = { "formatting.gofumpt" = true }
-
-[[language]]
-name = "rust"
-auto-format = true
 # ---
 # [[language]]
 # name = "go"

@@ -2,15 +2,16 @@ theme = "better_github_dark_dimmed"
 
 [editor]
 auto-save = true
+auto-format = true
+bufferline = "multiple"
+color-modes = true
 completion-replace = true
 cursorcolumn = false
 cursorline = true
 line-number = "relative"
 mouse = false
-true-color = true
-color-modes = true
 rulers = [79]
-bufferline = "multiple"
+true-color = true
 
 [editor.statusline]
 left = [
@@ -28,32 +29,18 @@ right = [
   "separator",
   "spacer",
   "diagnostics",
-  "selections",
   "position",
   "file-encoding",
   "file-line-ending",
   "file-type"
 ]
-separator = "│"
+separator = "╎"
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "SELECT"
 
 [editor.lsp]
 display-messages = true
-
-[editor.whitespace.render]
-space = "all"
-nbsp = "all"
-tab = "all"
-newline = "none"
-
-[editor.whitespace.characters]
-space = "·"
-nbsp = "⍽"
-tab = "→"
-newline = "⏎"
-tabpad = "·"
 
 [editor.cursor-shape]
 insert = "bar"
