@@ -14,8 +14,13 @@
 # --------
 [[language]]
 name = "toml"
+auto-format = true
 # https://github.com/bd82/toml-tools/tree/master/packages/prettier-plugin-toml
 formatter = { command = "prettier", args = ["--parser", "toml"] }
+
+[[language]]
+name = "json"
+formatter = { command = "prettier", args = ["--parser", "json"] }
 
 [[language]]
 name = "markdown"
