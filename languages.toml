@@ -28,8 +28,16 @@ name = "markdown"
 formatter = { command = "mdformat", args = ["-"] }
 
 [[language]]
+name = "rust"
+config.check.command = "clippy"
+
+[[language]]
 name = "go"
 config = { "formatting.gofumpt" = true }
+
+[[language]]
+name = "yaml"
+indent = { tab-width = 2, unit = "  " }
 # ---
 # [[language]]
 # name = "go"
