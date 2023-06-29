@@ -1,4 +1,4 @@
-theme = "better_github_dark_dimmed"
+theme = "catppuccin_macchiato"
 
 [editor]
 auto-save = true
@@ -13,13 +13,20 @@ mouse = false
 rulers = [79]
 true-color = true
 
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+tab = "→"
+newline = "⏎"
+tabpad = "·" # Tabs will look like "→···" (depending on tab width)
+
 [editor.file-picker]
 hidden = false
+git-ignore = false
 
 [editor.statusline]
 left = [
   "mode",
-  "spinner",
   "spacer",
   "version-control",
   "spacer",
@@ -28,6 +35,8 @@ left = [
   "file-modification-indicator"
 ]
 right = [
+  "spinner",
+  "spacer",
   "workspace-diagnostics",
   "separator",
   "spacer",
