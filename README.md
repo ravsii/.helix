@@ -8,6 +8,8 @@ I've randomly found Helix and now using it full time, I'd advice you to give
 it a try, especially if you think that terminal/modal editing is cool,
 but the (neo)vim itself is not
 
+Also, thanks for mentioning me in the [awesome-helix](https://github.com/rajasegar/awesome-helix) repo 🎉
+
 ## Preview
 
 ![](./img/showcase.png)
