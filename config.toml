@@ -113,6 +113,6 @@ end = "no_op"
 
 # Config Mode
 [keys.normal."C-backspace"]
-r = ":config-reload"
+r = [":config-reload", ":reload-all"]
 o = ":config-open"
 l = ":o ~/.config/helix/languages.toml"
