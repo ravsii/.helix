@@ -12,6 +12,4 @@ Also, thanks for mentioning me in the [awesome-helix](https://github.com/rajaseg
 
 ## Preview
 
-![](./img/showcase.png)
-
-_P.S. There's actually a bug in this code, can you find it?_
+![image](https://github.com/ravsii/.helix/assets/5007271/8ad53599-cf50-4597-a1f5-0fd88d513ad7)
